@@ -36,7 +36,6 @@ int main() {
 	pcd8544_init(4, 17, 1);
 	pcd8544_setContrast(55);
 	mcp3202_init(0);
-	systim_waits(3);
 	
 	int i;
 	for (i = 0; i < nrMeasurements; i++)
